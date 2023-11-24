@@ -600,12 +600,24 @@ video {
   height: 100vh;
 }
 
+.w-3 {
+  width: 1rem;
+}
+
 .w-4 {
   width: 1rem;
 }
 
 .w-8 {
   width: 2rem;
+}
+
+.w-50 {
+  width: 24rem;
+}
+
+.w-60 {
+  width: 24rem;
 }
 
 .w-96 {

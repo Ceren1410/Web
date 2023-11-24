@@ -3,41 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ceren Nur Eskiköy | İletişim</title>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="\Users\Ceren Nur Eskiköy\Desktop\Web sitesi\web sitesi tasarım.css"> 
-    <link rel="icon" href="\Users\Ceren Nur Eskiköy\Desktop\Web sitesi\görseller\anaicon.png" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
 
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="baslik">
-               <h2>Ceren Nur Eskiköy</h2> 
+        <div class="flex bg-blue-900 justify-between p-10 text-white">
+            <div class="flex">
+               <h1 class="text-3xl font-bold ml-12">Ceren Nur Eskiköy</h1> 
             </div>
-            <ul class="üstmenü">
-                <li><a href="web sitesi.html">Anasayfa</a></li>
-                <li><a href="Hakkımda.html">Hakkımda</a></li>
-                <li><a href="Hobi.html">Hobilerim</a></li>
-                <li><a href="Hedefim.html">Hedefim</a></li>
-                <li><a href="İletişim.html">İletişim</a></li>
-                          
-            </ul>
+            <div class="flex justify-end content-center px-24 text-white">
+                <div>
+
+                </div>
+                <ul class="flex justify-between">
+                    <li class="px-4"><a href="index.html">Anasayfa</a></li>
+                    <li class="px-4"><a href="Hakkımda.html">Hakkımda</a></li>
+                    <li class="px-4"><a href="Hobi.html">Hobilerim</a></li>
+                    <li class="px-4"><a href="Hedefim.html">Hedefim</a></li>
+                    <li class="px-4"><a href="İletişim.html">İletişim</a></li>                      
+                </ul>
+            </div>
         </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-      </label>
-        <ul class="menu">
-          <li><a href="web sitesi.html">Anasayfa</a></li>
-          <li><a href="Hakkımda.html">Hakkımda</a></li>
-          <li><a href="Hobi.html">Hobilerim</a></li>
-          <li><a href="Hedefim.html">Hedefim</a></li>
-          <li><a href="İletişim.html">İletişim</a></li>
-        </ul>
-    </header>
+
+        
+</header>
     
         <div class="container">
             <div id="anamenü">
@@ -59,13 +51,17 @@
                     </div>
         </div>
             </div>
-<footer>
-    <ul>
-        <li> <a href="#"> <img class="üsticon" src="\Users\Ceren Nur Eskiköy\Desktop\Web sitesi\görseller\iconi.png"> </a> </li>
-        <li> <a href="#"> <img class="üsticon" src="\Users\Ceren Nur Eskiköy\Desktop\Web sitesi\görseller\iconf.png"> </a> </li>
-        <li> <a href="#"> <img class="üsticon" src="\Users\Ceren Nur Eskiköy\Desktop\Web sitesi\görseller\icont.png"> </a> </li>
-   </ul>
-   <p id="number">Tel No:000 111 22 33</p>
-</footer>
-</body>
+            <footer class="flex justify-between bg-blue-900">
+                <div class="font-semibold flex justify-center items-center ml-12 text-white">
+                    <p>Tel No : 000 111 22 33</p>
+                </div>
+            
+                <ul class="flex justify-end mr-10 ml-10">
+                    <li> <a href="#"> <img class="üsticon" src="/görseller/iconi.png"> </a> </li>
+                    <li> <a href="#"> <img class="üsticon" src="/görseller/iconf.png"> </a> </li>
+                    <li> <a href="#"> <img class="üsticon" src="/görseller/icont.png"> </a> </li>
+                </ul>
+               
+            </footer>
+            </body>
 </html>
