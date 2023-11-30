@@ -24,7 +24,12 @@ module.exports = {
       width: {
         96: '26rem',
         128: '30rem',
-      }
+      },
+      height: {
+        96: '26rem',
+        128: '30rem',
+        'screen/2': '90vh',
+      },
     },
   },
   plugins: [

@@ -1,83 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hobilerim</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="output.css">
 
 
 </head>
-<body>
-    <header>
-        <div class="flex bg-blue-900 justify-between p-10 text-white">
-            <div class="flex">
-               <h1 class="text-3xl font-bold ml-12">Ceren Nur Eskiköy</h1> 
-            </div>
-            <div class="flex justify-end content-center px-24 text-white">
-                <div>
 
-                </div>
+<body class="flex-row items-end">
+    <header>
+        <div class="flex bg-blue-900 justify-between p-10 w-screen text-white">
+            <div class="flex justify-center">
+                <h1 class="text-3xl font-bold ml-12">Ceren Nur Eskiköy</h1>
+            </div>
+            <div class="justify-end content-center px-24 text-white hidden lg:flex">
                 <ul class="flex justify-between">
                     <li class="px-4"><a href="index.html">Anasayfa</a></li>
                     <li class="px-4"><a href="Hakkımda.html">Hakkımda</a></li>
                     <li class="px-4"><a href="Hobi.html">Hobilerim</a></li>
                     <li class="px-4"><a href="Hedefim.html">Hedefim</a></li>
-                    <li class="px-4"><a href="İletişim.html">İletişim</a></li>                      
+                    <li class="px-4"><a href="İletişim.html">İletişim</a></li>
                 </ul>
             </div>
         </div>
-
+    </header>
+    <section class="flex flex-row justify-center max-h-144">
         
-</header>
-<section class="flex">
+        <div class=" bg-slate-200 w-144 m-20 shadow-2xl shadow-black rounded-lg ">
+            <div class="flex justify-center">
+                <h3 class="text-xl font-bold mt-6 "> Hobilerim </h3> <br>               
+            </div>
 
-        <div class=" bg-red-700 w-128 h-18">
-
-                <h3 class="text-xl font-semibold"> Hobilerim </h3>  <br>
-
-                <div class=" w-auto h-auto">
-                     <img class="rounded-full w-28 h-28 flex justify-center p-5 " src="görseller\yazmak.jpg">
-                     <img class="rounded-full w-28 h-28 flex justify-center p-5 " src="görseller\yemek.jpg">
-                     <img class="rounded-full w-28 h-28 flex justify-center p-5 " src="görseller\film.jpg">
-                     <img class="rounded-full w-28 h-28 flex justify-center p-5  " src="görseller\müzik.png"> 
-                    
+            <div class="inline-flex items-center justify-center w-full">
+                <hr class="w-64 h-1 bg-gray-700 border-0 rounded dark:bg-gray-700">
+                <div class="absolute px-4 -translate-x-1/2 bg-gray-200 left-1/2 dark:bg-gray-900">
+                    <svg class="w-4 h-4 text-gray-700 dark:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+                <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+              </svg>
                 </div>
-                     <div class="inline-flex float-left  ">                   
-                        <div class="flex justify-center pt-6 ">
-                        
-                        <h5 class="w-fit justify-center items-center p-10"><i class="text-xl font-semibold">Yazmak</i> <br>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5> <br>
-   
-                        <h5 class="w-fit justify-center items-center p-10"><i class="text-xl font-semibold">Yemek yapmak</i> <br> 
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5> <br>
-   
-                           <h5 class="w-fit justify-center items-center p-10"> <i class="text-xl font-semibold">Film izlemek</i> <br>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5> <br>
-   
-                        <h5 class="w-fit justify-center items-center p-10"><i class="text-xl font-semibold">Müzik dinlemek</i> <br> 
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5>
-                       
-                       </div> 
+            </div>
 
-               
-               
-                </div>         
+
+
+            <div class="">
+                <div class="flex items-center">
+                    <img class="rounded-full w-28 h-28 flex justify-center p-5 " src="görseller\yazmak.jpg">
+
+                    <h5 class="w-fit justify-center items-center p-10"><i class="text-xl font-semibold">Yazmak</i> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5> <br>
+                </div>
+                <div class="flex items-center">
+                    <img class="rounded-full w-28 h-28 flex justify-center p-5 " src="görseller\yemek.jpg">
+                    <h5 class="w-fit justify-center items-center p-10"><i class="text-xl font-semibold">Yemek yapmak</i>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.
+                    </h5> <br>
+                </div>
+
+                <div class="flex items-center">
+
+                    <img class="rounded-full w-28 h-28 flex justify-center p-5 " src="görseller\film.jpg">
+                    <h5 class="w-fit justify-center items-center p-10"> <i class="text-xl font-semibold">Film
+                            izlemek</i> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5> <br>
+                </div>
+                <div class="flex items-center">
+
+                    <img class="rounded-full w-28 h-28 flex justify-center p-5  " src="görseller\müzik.png">
+                    <h5 class="w-fit justify-center items-center p-10"><i class="text-xl font-semibold">Müzik
+                            dinlemek</i> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, obcaecati.</h5>
+
+                </div>
+            </div>
         </div>
-        </section>
+    </section>
 
-            <footer class="flex justify-between bg-blue-900">
-                <div class="font-semibold flex justify-center items-center ml-12 text-white">
-                    <p>Tel No : 000 111 22 33</p>
-                </div>
-            
-                <ul class="flex justify-end mr-10 ml-10">
-                    <li> <a href="#"> <img class="üsticon" src="/görseller/iconi.png"> </a> </li>
-                    <li> <a href="#"> <img class="üsticon" src="/görseller/iconf.png"> </a> </li>
-                    <li> <a href="#"> <img class="üsticon" src="/görseller/icont.png"> </a> </li>
-                </ul>
-               
-            </footer>
-                        </body>
+    <footer class="flex">
+        <div class="flex w-screen justify-between bg-blue-900">
+    
+            <div class="font-semibold flex justify-center items-center ml-12 text-white">
+                <p>Tel No : 000 111 22 33</p>
+            </div>
+    
+            <ul class="flex justify-end mr-10 ml-10">
+                <li> <a href="#"> <img class="üsticon" src="/görseller/iconi.png"> </a> </li>
+                <li> <a href="#"> <img class="üsticon" src="/görseller/iconf.png"> </a> </li>
+                <li> <a href="#"> <img class="üsticon" src="/görseller/icont.png"> </a> </li>
+            </ul>
+    
+        </div>
+    </footer>
+</body>
 </html>
