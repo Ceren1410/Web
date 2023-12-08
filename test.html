@@ -1,62 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind CSS Navbar with Hamburger Icon</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
-    ></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+  ></script>
+</head>
+<body>
+  
 
-  <body>
-    <div x-data="{ open: false }" class="bg-white shadow-md">
-      <div class="container mx-auto flex justify-between items-center p-4">
-        <div class="text-blue-500 font-bold text-xl">Logo</div>
-        <button @click="open = !open" class="lg:hidden text-blue-500">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-            />
-          </svg>
-        </button>
-        <div class="hidden lg:flex">
-          <ul class="lg:flex space-x-4">
-            <li><a class="text-blue-500" href="#">Home</a></li>
-            <li><a class="text-blue-500" href="#">About</a></li>
-            <li><a class="text-blue-500" href="#">Services</a></li>
-            <li><a class="text-blue-500" href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <div
-        x-show="open"
-        x-transition:enter="transform ease-out duration-300 transition-translate-opacity"
-        x-transition:enter-start="translate-y-10 opacity-0"
-        x-transition:enter-end="translate-y-0 opacity-100"
-        x-transition:leave="transform ease-in duration-300 transition-translate-opacity"
-        x-transition:leave-start="translate-y-0 opacity-100"
-        x-transition:leave-end="translate-y-10 opacity-0"
-        class="lg:hidden"
-      >
-        <ul class="bg-white p-4">
-          <li><a class="text-blue-500" href="#">Home</a></li>
-          <li><a class="text-blue-500" href="#">About</a></li>
-          <li><a class="text-blue-500" href="#">Services</a></li>
-          <li><a class="text-blue-500" href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </body>
+
+
+
+
+  <div class="bg-red-700 w-128">test 1</div>
+  <div class=" bg-red-700 w-144"> test 2</div>
+  <div class=" bg-red-700 w-192"> test 3</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 </html>

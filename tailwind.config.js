@@ -29,6 +29,8 @@ module.exports = {
       height: {
         96: '26rem',
         128: '30rem',
+        144: '36rem',
+        192: '48rem',
         'screen/2': '90vh',
       },
     },
