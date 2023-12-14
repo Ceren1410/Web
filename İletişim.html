@@ -7,7 +7,9 @@
   <title>İletişim</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="output.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
+  <script defer 
+  src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+  ></script>
 
 </head>
 
@@ -28,9 +30,9 @@
         </ul>
       </div>
       <!--HAMBURGER MENU-->
-      <div x-data="{ open: false }" class="lg:hidden md: bg-transparent">
-        <div class="container mx-auto flex justify-between items-center p-4">
-          <button @click="open = !open" class="lg:hidden text-white">
+      <div x-data="{ open: false }" class="lg:hidden md: bg-transparent ">
+        <div class="container mx-auto flex justify-between items-center p-4 ">
+          <button @click="open = !open" class="lg:hidden text-white ">
             <button @click="open = !open" class="lg:hidden text-white">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
@@ -71,33 +73,32 @@
   </header>
 
   <!--  main card   -->
-
-  <section class="flex flex-row justify-center sm:w-screen h-screen bg-red-300 ">
-      <div class="bg-slate-200 my-auto lg:my-40 shadow-2xl shadow-black rounded-lg mx-4 w-144 h-96">
+  <section class="flex flex-row justify-center sm:w-screen h-screen ">
+      <div class="bg-slate-200 my-auto lg:my-40 overflow-hidden shadow-2xl shadow-black rounded-lg mx-4 w-144 h-96">
 
         <div class="iletisim-form">
-          <h3 class="font-bold justify-center flex pt-10">İletişim</h3>
+          <h3 class="font-bold justify-center flex pt-10 ">İletişim</h3>
 
-          <form class="font-semibold flex justify-center p-4 mx-4">
+          <form class="font-semibold flex justify-center p-4 mx-4 " action="https://formspree.io/cerennureskikoy@gmail.com" method="post" role="form">
             <div class="grid grid-cols-1">
               <div class="grid grid-cols-2">
-                <label class="my-4">İsim</label>
-                <input class="my-2 rounded-md h-7" name="isim" placeholder=" Adınız">
+                <label class="my-4">Ad - Soyad</label>
+                <input class="my-2 rounded-md h-7" name="isim" placeholder=" Ad Soyad" required>
               </div>
               <div class="grid grid-cols-2">
                 <label class="my-2">E-Posta</label>
-                <input class="my-2 rounded-md h-7" name="eposta" type=" email" placeholder=" Mail Adresiniz">
+                <input class="my-2 rounded-md h-7 " name="eposta" type=" email" placeholder=" E-posta"required>
               </div>
+              
               <div class="grid grid-cols-2">
                 <label class="my-2 flex items-center">İleti</label>
-                <textarea class="my-2 rounded-md max-h-24 min-h-full" name="mesaj" placeholder=" Mesajınız"></textarea>
-
+                <textarea class=" my-2 rounded-md max-h-24 min-h-full" name="mesaj" placeholder=" Mesajınız"required></textarea>
+              </div> <br>
+              <div class="justify-center flex mb-4 pb-4">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded-lg mt-4">Gönder</button>
               </div>
-            </div>
+            </div>           
           </form>
-          <div class="justify-center flex mb-4 pb-4">
-            <button class="bg-blue-900 text-white px-4 py-2 rounded-lg mt-4">Gönder</button>
-          </div>
         </div>
     </div>
     </section>
